@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 
@@ -14,32 +13,32 @@ function Menu() {
         <div className='menu-container'>
         <h3>ENTRANTES</h3>
         <ul className='menu-info'>
-            <li>AAAAAAAAAAA</li>
-            <li>AAAAAAAAAAA</li>
-            <li>AAAAAAAAAAA</li>
-            <li>AAAAAAAAAAA</li>
+            <li>Guacamole con Chips</li>
+            <li>Sopes de Pollo</li>
+            <li>Crema de Aguacate</li>
+            <li>Taquitos de pescado al chipotle</li>
         </ul>
         </div>
         <div className='menu-container'>
-        <h3>PLATO PRINCIPAL</h3>
+        <h3>PLATO FUERTE</h3>
         <ul className='menu-info-main'>
-            <li>AAAAAAAAAAA</li>
-            <li>AAAAAAAAAAA</li>
-            <li>AAAAAAAAAAA</li>
-            <li>AAAAAAAAAAA</li>
+            <li>Chile en nogada</li>
+            <li>Tacos al pastor</li>
+            <li>Torta ahogada</li>
+            <li>Pescado zarandeado</li>
         </ul>
         </div>
         <div className='menu-container'>
         <h3>POSTRES</h3>
         <ul className='menu-info-main'>
-            <li>AAAAAAAAAAA</li>
-            <li>Aaaaaaaaaaa</li>
-            <li>AAAAAAAAAAA</li>
-            <li>AAAAAAAAAAA</li>
+            <li>Arroz con leche</li>
+            <li>Flan de la casa</li>
+            <li>Gelatina de horchata</li>
+            <li>Helado de nogada</li>
         </ul>
         </div>
         </div>
-        <span className='price'>PVP: $24</span>
+        <span className='price'>PVP: 24€</span>
       </div>
       <Footer />
     </>
